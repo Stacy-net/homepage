@@ -173,11 +173,24 @@ body {
 	color: var(--secondary-text-color);
 	text-align: justify;
 }
+.skills__list {
+	column-count: 2;
+	column-gap: 40px;
+}
+.skills__container {
+	display: flex;
+	justify-content: space-evenly;
+}
 
 //experience and additional info styles
 .experiences {
 	flex: 1 1 60%;
 	margin-right: 50px;
+}
+
+.experiences__container {
+	display: flex;
+	flex-direction: column;
 }
 
 .experiences__header {
